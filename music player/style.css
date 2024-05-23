@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    
+}
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+/* header */
+.header{
+    height: 1024px;
+    width: auto;
+    background-image: url(images/stars.jpeg);
+    font-family: "Istok Web", sans-serif;
+}
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    min-height: 70px;
+    text-align: center;
+    align-items: center;
+    padding-right: 250px;
+}
+.logo{
+    display: block;
+    margin-top: 8px;
+    padding-left: 122px;
+    font-family: "Libre Barcode 128 Text", sans-serif;
+    font-size: 80px;
+}
+.navigation_list{
+    padding-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+}
+.navigation_list li{
+    display: block;
+    min-width: 200px;
+    line-height: 26px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* firstPage */
+.firstPage{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.firstPage_title{
+    font-family: "Kenia";
+    padding-top: 150px;
+    font-size: 150px;
+    line-height: 150px;
+    width: 800px;
+}
+.firstPage_text{
+    padding-top: 100px;
+}
+.firstPage_images img{
+    border: 1px solid red;
+    padding-top: 60px;
+    position: relative;
+    width: 500px;
+    height: 900px;
+    
+}
+
+/* musicPage */
+.musicPage{
+    height: 1024px;
+    display: block;
+    width: auto;
+    background-color: #D53005;
+    font-family: "Karia", sans-serif;
+    padding-left: 150px;
+
+}
+.musicPage_Title, .musicPage_Title, .aboutPage_Title, .storePage_Title{
+    padding-top: 83px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    display: block;
+}
+.musicPage_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.musicPage_buttons_list{
+    list-style: none;
+}
+.musicPage_button{
+    width: 382px;
+    height: 83px;
+    background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    border: 1px, solid, #00000080;
+    color: white;
+    font-family: "Karia", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+}
+
+/* aboutPage */
+.aboutPage{
+    height: 1024px;
+    width: auto;
+    background-image: linear-gradient(#D53005, black 5%);
+    border: 1px solid red;
+    font-family: "Karia", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.aboutPage_Text{
+    text-align: center;
+    border: 1px solid red;
+    line-height: 35px;
+}
+/* storePage */
+.storePage{
+    height: 1024px;
+    width: auto;
+    background-color: #D53005;
+}
+/* footer */
+.footer{
+    height: 536px;
+    width: auto;
+    background-image: linear-gradient(#D53005, black 3%);
+}
